@@ -14,7 +14,7 @@ const Contact = () => {
     setLoading(true);
     try {
       const { data } = await axios.post(
-        "https://fitness-app-backendd.onrender.com",
+        "https://fitness-app-backenddd.onrender.com",
         {
           name,
           email,
